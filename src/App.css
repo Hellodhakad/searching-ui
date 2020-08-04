@@ -1,3 +1,8 @@
+html,
+body {
+  background-color: aqua;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.inputPart {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* padding-left: 10px; */
+  margin-left: 20px;
+}
+
+.output-card {
+  box-shadow: 5px 10px 18px #888888;
+  height: 80vh;
+}
+
+.searchInfo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.inputArray {
+  width: 87%;
+}
+
+.buttonClass {
+  float: left;
+}
+
+.small-card {
+  height: 50px;
 }
